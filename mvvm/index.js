@@ -14,7 +14,7 @@ delete obj.school;
 
 // 枚举所有属性
 for (const key in obj) {
-    console.log(key);
+    console.log(key);  
 }
 
 // vue特点不能新增不存在的属性，不能存在的属性没有get和set
